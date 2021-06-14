@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+}
+
+.header {
+  /* height: 70px; */
+
+  /* background-color: grey; */
+  font-size: 0;
+}
+.logo {
+  line-height: 50px;
+  /* background-color: yellow; */
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 70px;
+  color: rgb(46, 4, 124);
+  /* width: 10%; */
+  /* padding: 20px 0 20px 0; */
+}
+.logo a{
+    text-decoration: none;
+}
+.navigation {
+  margin-left: 60%;
+
+  display: inline-block;
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 0 0 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color:rgb(46, 4, 124)
+}
+.banner > img {
+  width: 100%;
+}
+
+.services {
+    margin: 20px;
+  padding: 40px;
+  width: 80%;
+  /* height: 600px; */
+  background-color: rgb(226, 226, 225);
+  margin-left: 10%;
+  font-size: 0;
+}
+.services > h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  color:rgb(46, 4, 124)
+
+}
+.service {
+ 
+  width: 25%;
+  margin-left: calc(25% / 4);
+  margin-top: 20px;
+
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+
+.service-details {
+  padding: 10px;
+  font-size: 14px;
+}
+.service-details>p{
+    color: rgb(109, 108, 108);
+}
+
+.service img {
+  /* height: 200px; */
+  width: 100%;
+  overflow: hidden;
+}
+
+.service button {
+  margin: 10px 0 0 0;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  background-color: rgb(46, 4, 124);
+  color: white;
+  cursor: pointer;
+}
+
+.about{
+
+    padding: 50px;
+    background-color: white;
+    
+}
+.about>h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color:rgb(46, 4, 124)
+
+}
+
+.map>h1{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(46, 4, 124);
+    
+
+}
+.map iframe{
+    padding-top: 20px;
+    width: 100%;
+    height: 500px;
+    border: none;
+}
