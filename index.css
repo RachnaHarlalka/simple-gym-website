@@ -19,12 +19,13 @@
   font-weight: bold;
   text-align: center;
   margin-left: 70px;
-  color: rgb(46, 4, 124);
+
   /* width: 10%; */
   /* padding: 20px 0 20px 0; */
 }
-.logo a{
-    text-decoration: none;
+.logo a {
+  text-decoration: none;
+  color: rgb(42 1 1);
 }
 .navigation {
   margin-left: 60%;
@@ -39,19 +40,56 @@
 }
 
 .navigation a {
-    text-decoration: none;
-    color:rgb(46, 4, 124)
+  text-decoration: none;
+  color: rgb(42 1 1);
+  font-weight: bold;
 }
-.banner > img {
+.banner {
   width: 100%;
+  height: 600px;
+  /* background-color: grey; */
+  background-image: url('./images/banner.jpg');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position-y: -250px;
+  background-position-x: 300px;
+}
+
+.banner-details {
+  /* height: 300px; */
+  width: 40%;
+  display: inline-block;
+  /* background-color: rgb(51, 51, 51, 0.7); */
+  margin-top: 150px;
+  margin-left: 13%;
+  color: white;
+  border-radius: 20px;
+}
+
+.padd {
+  padding: 30px;
+}
+
+.padd > h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.padd > button {
+  background-color: #e52b37;
+  color: white;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 
 .services {
-    margin: 20px;
+  margin: 20px;
   padding: 40px;
   width: 80%;
   /* height: 600px; */
-  background-color: rgb(226, 226, 225);
+  background-color: #efefef;
   margin-left: 10%;
   font-size: 0;
 }
@@ -60,11 +98,9 @@
   font-size: 40px;
   font-weight: bold;
   padding-bottom: 20px;
-  color:rgb(46, 4, 124)
-
+  color: rgb(42 1 1);
 }
 .service {
- 
   width: 25%;
   margin-left: calc(25% / 4);
   margin-top: 20px;
@@ -77,8 +113,8 @@
   padding: 10px;
   font-size: 14px;
 }
-.service-details>p{
-    color: rgb(109, 108, 108);
+.service-details > p {
+  color: rgb(109, 108, 108);
 }
 
 .service img {
@@ -87,39 +123,36 @@
   overflow: hidden;
 }
 
-.service button {
+button {
   margin: 10px 0 0 0;
   padding: 15px 30px 15px 30px;
   border: none;
-  background-color: rgb(46, 4, 124);
+  background-color: rgb(42 1 1);
   color: white;
   cursor: pointer;
+  font-weight: bold;
 }
 
-.about{
-
-    padding: 50px;
-    background-color: white;
-    
+.about {
+  padding: 50px;
+  background-color: #fbf4f4;
 }
-.about>h1{
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 40px;
-    color:rgb(46, 4, 124)
-
+.about > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: rgb(42 1 1);
 }
 
-.map>h1{
-    text-align: center;
-    font-size: 40px;
-    color:rgb(46, 4, 124);
-    
-
+.map > h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(42 1 1);
 }
-.map iframe{
-    padding-top: 20px;
-    width: 100%;
-    height: 500px;
-    border: none;
+.map iframe {
+  padding-top: 20px;
+  width: 100%;
+  height: 500px;
+  border: none;
 }
